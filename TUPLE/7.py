@@ -1,0 +1,6 @@
+tup=("red","green","blue")
+lst=list(tup)
+lst.pop(1)
+newtup=tuple(lst)
+print("original:",tup)
+print("after deletion :",newtup)
